@@ -6,7 +6,7 @@ def batch_badge_creator(message)
   container = []
 
   i = 0
-  while i < message.size
+  while i < message.length
     container = container.push("Hello, my name is #{message}.")
     i += 1
   end
