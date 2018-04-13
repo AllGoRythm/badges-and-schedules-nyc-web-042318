@@ -13,6 +13,6 @@ def batch_badge_creator(message)
    container
 end
 
-def conference_badges()
+def assign_rooms()
 
 end
