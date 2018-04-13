@@ -13,15 +13,7 @@ def batch_badge_creator(message)
    container
 end
 
-def assign_rooms(attendee, room_assignment)
+def assign_rooms(people)
 
-  container = []
-
-  i = 1
-  while i < attendee.length
-    container = container.push("Hello, #{attendee[i]}! You'll be assigned to room [i]!")
-    i += 1
-  end
-   container
 
 end
