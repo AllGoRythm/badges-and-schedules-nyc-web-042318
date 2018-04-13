@@ -10,5 +10,5 @@ def batch_badge_creator(message)
     container.push("Hello, my name is #{message}.")
     i += 1
   end
-  return container
+   container
 end
