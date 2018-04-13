@@ -16,4 +16,6 @@ end
 def assign_rooms(people)
   container = []
 
+  people.each_with_index |person,room|
+
 end
