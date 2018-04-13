@@ -3,5 +3,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(message)
-  return message
+  container = []
+  container.push(message)
 end
