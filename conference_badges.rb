@@ -5,4 +5,5 @@ end
 def batch_badge_creator(message)
   container = []
   container.push(message)
+  return container
 end
