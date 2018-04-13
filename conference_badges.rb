@@ -16,6 +16,6 @@ end
 def assign_rooms(people)
   container = []
 
-  people.each_with_index |person,number|
+  people.each_with_index(1) do |person,number|
 
 end
