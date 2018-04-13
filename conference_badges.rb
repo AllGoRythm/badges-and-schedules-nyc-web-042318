@@ -16,7 +16,7 @@ end
 def assign_rooms(people)
   container = []
 
-  people.each_with_index.map { |person,number|  }
+  people.each_with_index { |person,number|  }
     container.push("Hello, #{person}! You'll be assigned to room #{number}!")
   end
   container
