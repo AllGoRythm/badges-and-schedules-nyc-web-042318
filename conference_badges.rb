@@ -14,6 +14,6 @@ def batch_badge_creator(message)
 end
 
 def assign_rooms(people)
-
+  container = []
 
 end
