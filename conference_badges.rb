@@ -17,9 +17,9 @@ def assign_rooms(attendee, room_assignment)
 
   container = []
 
-  i = 0
+  i = 1
   while i < attendee.length
-    container = container.push("Hello, #{attendee}! You'll be assigned to room #{room_assignment}!")
+    container = container.push("Hello, #{attendee[i]}! You'll be assigned to room #{}!")
     i += 1
   end
    container
