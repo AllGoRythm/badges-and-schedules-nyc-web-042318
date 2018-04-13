@@ -12,3 +12,7 @@ def batch_badge_creator(message)
   end
    container
 end
+
+def conference_badges()
+
+end
