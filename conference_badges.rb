@@ -23,5 +23,11 @@ def assign_rooms(people)
 end
 
 def printer
-  
+  batch_badge_creator(names).each do |list|
+   puts list
+  end
+
+ assign_rooms(names).each do |list|
+    puts list
+  end
 end
